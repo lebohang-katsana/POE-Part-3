@@ -9,6 +9,8 @@
 <!-- ============================================ -->
 <html lang="en">
     <head>
+        <title>Ubuntu Bakery | Fresh Bread & Pastries</title>
+<meta name="description" content="Ubuntu Bakery provides freshly baked bread, pastries, and cakes for the local community. Order online or visit us today.">
         <meta charset="UTF-8">
         <Meta name="viewport" content="width=device-width, initial-scale=1.0">
             <title>Ubuntu Bakery-Products</title>
@@ -41,8 +43,8 @@
                 <!-- Bread and Pastries -->
             <section>
             <h3>Bread and Pastries</h3>
-            <img src="images/bread.png " alt="Fresh bread from Ubuntu Bakery">
-            <img src="images/pastries.jpg" alt="Fresh pastries from Ubuntu Bakery">
+            <img src="images/bread.png" alt="Fresh bread from Ubuntu Bakery" onclick="openLightbox(this.src)">
+            <img src="images/pastries.jpg" alt="Fresh pastries from Ubuntu Bakery" onclick="openLightbox(this.src)">
             <p>
                 We offer freshly baked bread and a selection of pastries prepared with quality ingredients for our customers.
             </p>
@@ -50,7 +52,7 @@
               <!-- Cakes and Cupcakes -->
             <section>
             <h3>Cakes and Cupcakes</h3>
-            <img src="images/cupcakes.jpg" alt="Cupcakes from Ubuntu Bakery">
+            <img src="images/cupcakes.jpg" alt="Cupcakes from Ubuntu Bakery" onclick="openLightbox(this.src)">
             <p>
                 Our cakes and cupcakes are suitable for birthdays, celebrations and other special occasions
             </p>
@@ -58,8 +60,8 @@
              <!-- Special Orders -->
             <section>
             <h3>Special Orders</h3>
-            <img src="images/special-cake.jpg" alt="Special order from Ubuntu Bakery">
-            <img src="images/special cake2.jpg" alt="Special order from Ubuntu Bakery">
+            <img src="images/special-cake.jpg" alt="Special order from Ubuntu Bakery" onclick="openLightbox(this.src)">
+            <img src="images/special cake2.jpg" alt="Special order from Ubuntu Bakery" onclick="openLightbox(this.src)">
             <p>
                 Customers can make special orders for cakes, cupcakes and other baked products for their events and celebrations.
             </p>
@@ -72,6 +74,26 @@
             <p>&copy; 2026 Ubuntu Bakery. All rights reserved.</p>
         </footer>
 <!-- ===== END OF FOOTER ===== -->
+
+     <!-- Lightbox Container (Hidden by default) -->
+    <div id="imageLightbox" class="lightbox">
+        <span class="close-lightbox" onclick="closeLightbox()">&times;</span>
+        <img class="lightbox-content" id="lightboxImg" alt="Enlarged image">
+    </div>
+
+    <!-- JavaScript for Lightbox -->
+    <script>
+        // Function to open the image
+        function openLightbox(imageSrc) {
+            document.getElementById("imageLightbox").style.display = "block";
+            document.getElementById("lightboxImg").src = imageSrc;
+        }
+
+        // Function to close the image
+        function closeLightbox() {
+            document.getElementById("imageLightbox").style.display = "none";
+        }
+    </script>
 
     </body>
 </html>
