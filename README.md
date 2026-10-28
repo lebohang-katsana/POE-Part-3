@@ -5,7 +5,7 @@ Ubuntu Bakery is a proposed small bakery business that provides freshly baked pr
 
 
 
-## Website Purpose
+**Website Purpose**
 
 The main purpose of the Ubuntu Bakery website is to:
 
