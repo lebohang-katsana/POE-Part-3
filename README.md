@@ -1,6 +1,9 @@
  **Name and Surname** Lebohang Katsana
+ 
  **ST Number** ST10481320
+ 
  **Module** Web Development
+ 
   
   **Ubuntu Bakery Website**
  **Project Description**
