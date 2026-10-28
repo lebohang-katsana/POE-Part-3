@@ -97,48 +97,7 @@
                     <p>&copy; 2026 Ubuntu Bakery. All rights reserved.</p>
                     </footer>
                      <!-- ===== END OF FOOTER ===== -->
-                      
-                         <!-- JavaScript Form Validation -->
-    <script>
-        document.addEventListener('DOMContentLoaded', function() {
-            // Find the form on the page
-            const form = document.querySelector('form');
-            
-            if (form) {
-                form.addEventListener('submit', function(event) {
-                    // This stops the page from refreshing immediately
-                    event.preventDefault(); 
 
-                    // Get the values from the inputs (using the IDs we set earlier)
-                    const nameInput = document.getElementById('contact-name');
-                    const emailInput = document.getElementById('contact-email');
-                    const messageInput = document.getElementById('message');
-                    
-                    // Check if the inputs exist on this page, if not, leave empty
-                    const name = nameInput ? nameInput.value.trim() : "";
-                    const email = emailInput ? emailInput.value.trim() : "";
-                    const message = messageInput ? messageInput.value.trim() : "";
-
-                    // 1. Check if all fields are filled out
-                    if (name === "" || email === "" || message === "") {
-                        alert("Please fill in all required fields before submitting.");
-                        return; // Stops the code here
-                    }
-
-                    // 2. Check if the email looks like a real email (has an @ and a .)
-                    if (!email.includes("@") || !email.includes(".")) {
-                        alert("Please enter a valid email address.");
-                        return; // Stops the code here
-                    }
-
-                    // 3. If everything is correct, show a success message
-                    alert("Thank you, " + name + ". Your message has been sent successfully to Ubuntu Bakery!");
-                    
-                    // 4. Clear the form after sending
-                    form.reset(); 
-                });
-            }
-        });
-    </script>
+                     <script src="js/script.js"></script>
                 </body>
 </html>
