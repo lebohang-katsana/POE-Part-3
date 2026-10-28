@@ -19,7 +19,7 @@ The main purpose of the Ubuntu Bakery website is to:
 
 
 
-## Website Pages
+ **Website Pages**
 
 The website consists of five main pages:
 
