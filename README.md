@@ -241,6 +241,24 @@ The website is designed for local customers who are interested in bakery product
 
 The Ubuntu Bakery website provides an online platform for presenting the bakery's products, services and business information. The project demonstrates the use of HTML, CSS, images, navigation and structured webpage content to create an organised website for a proposed local bakery.
 
+**Version 1.3 - JavaScript and SEO (Part 3)**
+
+**Date:** 28 October 2026
+
+**Changes Made:**
+- Implemented an interactive JavaScript image lightbox for the gallery.
+- Added client-side JavaScript form validation to contact and enquiry pages to ensure user input is correct before submission.
+- Added custom alert error handling messages for form submissions.
+- Added a search functionality on the products page to filter content dynamically.
+- Enhanced SEO by adding descriptive meta descriptions and optimized title tags to all HTML pages.
+- Created a `robots.txt` and `sitemap.xml` file for search engine crawlers.
+- Deployed the live website to GitHub Pages.
+
+   **Part 3 References**
+8. W3Schools. (2026). *JavaScript Tutorial*. https://www.w3schools.com/js/
+9. MDN Web Docs. (2026). *JavaScript*. https://developer.mozilla.org/en-US/docs/Web/JavaScript
+10. Google Developers. (2026). *SEO Starter Guide*. https://developers.google.com/search/docs/fundamentals/seo-starter-guide
+
 
 
 
