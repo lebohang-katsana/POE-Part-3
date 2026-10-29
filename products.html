@@ -1,92 +1,81 @@
 <!DOCTYPE html>
-<!-- ============================================ -->
-<!-- UBUNTU BAKERY - PRODUCTS PAGE               -->
-<!-- Author: Lebohang Katsana                     -->
-<!-- Date: 14 September 2026                      -->
-<!-- Description: This page provides information  -->
-<!-- about bread, pastries, cakes, cupcakes and   -->
-<!-- special orders offered by Ubuntu Bakery.     -->
-<!-- ============================================ -->
 <html lang="en">
-    <head>
-        <title>Ubuntu Bakery | Fresh Bread & Pastries</title>
-<meta name="description" content="Ubuntu Bakery provides freshly baked bread, pastries, and cakes for the local community. Order online or visit us today.">
-        <meta charset="UTF-8">
-        <Meta name="viewport" content="width=device-width, initial-scale=1.0">
-            <title>Ubuntu Bakery-Products</title>
-             <link rel="stylesheet" href="css/style.css">
-    </head> 
-    <body>
-   <!-- ===== START OF HEADER ===== -->
+<!-- ============================================ -->
+<!-- UBUNTU BAKERY - PRODUCTS PAGE                -->
+<!-- ============================================ -->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Products | Ubuntu Bakery</title>
+    <meta name="description" content="Browse our selection of freshly baked bread, delicious pastries, custom cakes, and cupcakes.">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
 
-        <header>
-            <h1>Ubuntu Bakery</h1>
-        </header>
- <!-- ===== END OF HEADER ===== -->
+    <!-- ===== START OF HEADER ===== -->
+    <header>
+        <h1>Ubuntu Bakery</h1>
+    </header>
+    <!-- ===== END OF HEADER ===== -->
 
     <!-- ===== START OF NAVIGATION ===== -->
-
-        <nav>
-            <a href="index.html">Home</a>
-            <a href="about.html">About Us</a>
-            <a href="products.html">Products</a>
-            <a href="enquiry.html">Enquiry</a>
-            <a href="contact.html">Contact</a>
-        </nav>
-<!-- ===== END OF NAVIGATION ===== -->
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="about.html">About Us</a>
+        <a href="products.html">Products</a>
+        <a href="enquiry.html">Enquiry</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+    <!-- ===== END OF NAVIGATION ===== -->
 
     <!-- ===== START OF MAIN CONTENT ===== -->
+    <main>
+        <h2>Our Products and Services</h2>
 
-        <main>
+        <!-- Search Bar -->
+        <div style="margin-bottom: 20px;">
+            <input type="text" id="searchInput" placeholder="Search products..." style="padding: 10px; width: 100%; max-width: 400px; border-radius: 5px; border: 1px solid #ccc;">
+        </div>
 
-                <!-- Search Bar -->
-    <div style="margin-bottom: 20px;">
-        <input type="text" id="searchInput" placeholder="Search products..." style="padding: 10px; width: 100%; max-width: 400px; border-radius: 5px; border: 1px solid #ccc;">
-    </div>
-              <!-- Products Page Section -->
-            <h2>Our Products and Services</h2>
-                <!-- Bread and Pastries -->
-            <section>
+        <!-- Product 1: Bread and Pastries -->
+        <div class="product-item">
             <h3>Bread and Pastries</h3>
             <img src="images/bread.png" alt="Fresh bread from Ubuntu Bakery" class="clickable-img">
             <img src="images/pastries.jpg" alt="Fresh pastries from Ubuntu Bakery" class="clickable-img">
-            <p>
-                We offer freshly baked bread and a selection of pastries prepared with quality ingredients for our customers.
-            </p>
-            </section>
-              <!-- Cakes and Cupcakes -->
-            <section>
+            <p>We offer freshly baked bread and a selection of pastries prepared with quality ingredients for our customers.</p>
+        </div>
+
+        <!-- Product 2: Cakes and Cupcakes -->
+        <div class="product-item">
             <h3>Cakes and Cupcakes</h3>
             <img src="images/cupcakes.jpg" alt="Cupcakes from Ubuntu Bakery" class="clickable-img">
-            <p>
-                Our cakes and cupcakes are suitable for birthdays, celebrations and other special occasions
-            </p>
-            </section>
-             <!-- Special Orders -->
-            <section>
+            <p>Our cakes and cupcakes are suitable for birthdays, celebrations and other special occasions.</p>
+        </div>
+
+        <!-- Product 3: Special Orders -->
+        <div class="product-item">
             <h3>Special Orders</h3>
             <img src="images/special-cake.jpg" alt="Special order from Ubuntu Bakery" class="clickable-img">
             <img src="images/special cake2.jpg" alt="Special order from Ubuntu Bakery" class="clickable-img">
-            <p>
-                Customers can make special orders for cakes, cupcakes and other baked products for their events and celebrations.
-            </p>
-        </main>
-         <!-- ===== END OF MAIN CONTENT ===== -->
+            <p>Customers can make special orders for cakes, cupcakes and other baked products for their events and celebrations.</p>
+        </div>
+
+    </main>
+    <!-- ===== END OF MAIN CONTENT ===== -->
 
     <!-- ===== START OF FOOTER ===== -->
+    <footer>
+        <p>&copy; 2026 Ubuntu Bakery. All rights reserved.</p>
+    </footer>
+    <!-- ===== END OF FOOTER ===== -->
 
-        <footer>
-            <p>&copy; 2026 Ubuntu Bakery. All rights reserved.</p>
-        </footer>
-<!-- ===== END OF FOOTER ===== -->
+    <!-- Lightbox Container -->
+    <div id="imageLightbox" class="lightbox">
+        <span class="close-lightbox">&times;</span>
+        <img class="lightbox-content" id="lightboxImg" alt="Enlarged image">
+    </div>
 
-<!-- Lightbox Container -->
-<div id="imageLightbox" class="lightbox">
-    <span class="close-lightbox">&times;</span>
-    <img class="lightbox-content" id="lightboxImg" alt="Enlarged image">
-</div>
-
-<script src="js/script.js"></script>
-    </body>
+    <!-- Link to JavaScript -->
+    <script src="js/script.js"></script>
+</body>
 </html>
-
