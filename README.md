@@ -157,7 +157,7 @@ The website is designed for local customers who are interested in bakery product
  **How to View the Website**
 
 1. Navigate to the project folder
-2. Double-click `index.html`
+2. Double-click index.html
 3. The website will open in your default browser
 
 
@@ -251,7 +251,7 @@ The Ubuntu Bakery website provides an online platform for presenting the bakery'
 - Added custom alert error handling messages for form submissions.
 - Added a search functionality on the products page to filter content dynamically.
 - Enhanced SEO by adding descriptive meta descriptions and optimized title tags to all HTML pages.
-- Created a `robots.txt` and `sitemap.xml` file for search engine crawlers.
+- Created a **robots.txt** and **sitemap.xml** file for search engine crawlers.
 - Deployed the live website to GitHub Pages.
 
    **Part 3 References**
