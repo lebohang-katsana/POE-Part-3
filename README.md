@@ -167,18 +167,18 @@ The website is designed for local customers who are interested in bakery product
  **Navigation Testing**
 | **Link** | **Destination** | **Status** |
 |:---|:---|:---|
-| Home | index.html | ✅ Working |
-| About Us | about.html | ✅ Working |
-| Products | products.html | ✅ Working |
-| Enquiry | enquiry.html | ✅ Working |
-| Contact | contact.html | ✅ Working |
+| Home | index.html |  Working |
+| About Us | about.html |  Working |
+| Products | products.html |  Working |
+| Enquiry | enquiry.html |  Working |
+| Contact | contact.html |  Working |
 
  **Responsive Testing**
 | **Device** | **Breakpoint** | **Status** |
 |:---|:---|:---|
-| Desktop | 1200px+ | ✅ Working |
-| Tablet | 768px | ✅ Working |
-| Mobile | 480px | ✅ Working |
+| Desktop | 1200px+ |  Working |
+| Tablet | 768px | Working |
+| Mobile | 480px |  Working |
 
 
 
