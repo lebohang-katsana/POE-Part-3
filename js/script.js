@@ -61,3 +61,19 @@ document.addEventListener('DOMContentLoaded', function() {
     });
 
 });
+    // ===== 3. SEARCH FUNCTIONALITY =====
+    const searchInput = document.getElementById('searchInput');
+    if (searchInput) {
+        searchInput.addEventListener('keyup', function() {
+            const filter = this.value.toLowerCase();
+            const products = document.querySelectorAll('.product-item'); 
+            products.forEach(function(product) {
+                const text = product.textContent.toLowerCase();
+                if (text.includes(filter)) {
+                    product.style.display = ""; 
+                } else {
+                    product.style.display = "none"; 
+                }
+            });
+        });
+    }
